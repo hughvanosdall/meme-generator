@@ -1,0 +1,88 @@
+body {
+	background: #413f3f;
+	color: #999;
+}
+
+input[type=text] {
+    display: inline-block;
+    width: 50%;
+    padding: 0.5em;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    display: inline-block;
+    width: 10%;
+    background-color: #000000;
+    color: white;
+    padding: 0.5em 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    text-align: center;
+    display: inline-block;
+    background-color: #0f9bb4;
+}
+
+li{
+    padding: .5em;
+}
+
+li:hover {
+    filter: brightness(30%);
+    transition: all 0.5s ease;
+}
+
+h1{
+    font: 'Courier New', monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    color: #0f9bb4;
+}
+
+.meme-generator{
+    display: block;
+    text-align: center;
+}
+
+.meme-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.img{
+    filter: brightness(100%);
+    width:500px;
+    height:500px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.top-text {
+    font-size: 50px;
+    position: relative;
+    top: -80%;
+    font-family: Impact;
+    display: block;
+    -webkit-text-stroke: 3px black;
+}
+
+.bottom-text {
+    font-size: 50px;
+    position: relative;
+    bottom: 20%;
+    font-family: Impact;
+    display: block;
+    -webkit-text-stroke: 3px black;
+}
